@@ -1,5 +1,5 @@
 var Global = {
-    url : "http://192.168.100.9:3900/api/"
+    url : "https://apicvrtg.herokuapp.com/api/"
 }
 
 export default Global;
