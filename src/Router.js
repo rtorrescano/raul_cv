@@ -15,11 +15,11 @@ class Router extends Component{
                 <Menu />
                 {/* Configurar rutas y paginas */}
                 <Switch>
-                    <Route exact path="/" component={Home} />
-                    <Route exact path="/home" component={Home} />
-                    <Route exact path="/about" component={About} />
-                    <Route exact path="/experience" component={Experience} />
-                    <Route exact path="/contact" component={Contact} />
+                    <Route exact path="/raul_cv" component={Home} />
+                    <Route exact path="/raul_cv/home" component={Home} />
+                    <Route exact path="/raul_cv/about" component={About} />
+                    <Route exact path="/raul_cv/experience" component={Experience} />
+                    <Route exact path="/raul_cv/contact" component={Contact} />
                 </Switch>
                 <Footer />
             </BrowserRouter>
